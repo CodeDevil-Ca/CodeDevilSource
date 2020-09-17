@@ -21,17 +21,77 @@ a:hover {
 }
 .socialmediabar
 {
-  text-align: center;
+  max-width:9em;
 }
+.socialMedIcon
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:4em;
+}
+
 .background-cust
 {
     background-image: url("LogoHorizontal.png");
     background-repeat: no-repeat;
     background-color: purple;
     background-size: cover;
+    
 }
-.iconMain {
+.iconMainGH {
+  background: url("icons/MainPageGH.png") no-repeat 0 0;
+  background-size: 4em 4em;
   width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainGH:hover{
+  background: url("/icons/MainPageGHHover.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainYT {
+  background: url("icons/MainPageIconYT.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainYT:hover{
+  background: url("/icons/MainPageIconYTHover.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainIG {
+  background: url("icons/MainPageIconIG.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainIG:hover{
+  background: url("/icons/MainPageIconIGHover.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainT {
+  background: url("icons/MainPageT.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
+  margin:.1em;
+}
+.iconMainT:hover{
+  background: url("/icons/MainPageTHover.png") no-repeat 0 0;
+  background-size: 4em 4em;
+  width:4em;
+  height:4em;
   margin:.1em;
 }
 .post-custom{
