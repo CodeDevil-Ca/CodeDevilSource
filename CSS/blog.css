@@ -1,6 +1,23 @@
 /* stylelint-disable selector-list-comma-newline-after */
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+#preload
+{
+ visibility:hidden;
+}
+.preload1{
+  background: url("/icons/MainPageGHHover.png") no-repeat 0 0;
+}
+.preload2{
+  background: url("/icons/MainPageIconYTHover.png") no-repeat 0 0;
+}
+.preload3{
+  background: url("/icons/MainPageTHover.png") no-repeat 0 0;
+  
+}
+.preload4{
+  background: url("/icons/MainPageIconIGHover.png") no-repeat 0 0;
+}
 a{
   color:#b30077;
 }
@@ -38,61 +55,43 @@ a:hover {
     background-size: cover;
     
 }
-.iconMainGH {
-  background: url("icons/MainPageGH.png") no-repeat 0 0;
-  background-size: 4em 4em;
+.iconMainSize{
+  
   width:4em;
   height:4em;
   margin:.1em;
+}
+.iconMainGH {
+  background: url("icons/MainPageGH.png") no-repeat 0 0;
+  background-size: 4em 4em;
 }
 .iconMainGH:hover{
   background: url("/icons/MainPageGHHover.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .iconMainYT {
   background: url("icons/MainPageIconYT.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .iconMainYT:hover{
   background: url("/icons/MainPageIconYTHover.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .iconMainIG {
   background: url("icons/MainPageIconIG.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .iconMainIG:hover{
   background: url("/icons/MainPageIconIGHover.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .iconMainT {
   background: url("icons/MainPageT.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .iconMainT:hover{
   background: url("/icons/MainPageTHover.png") no-repeat 0 0;
   background-size: 4em 4em;
-  width:4em;
-  height:4em;
-  margin:.1em;
 }
 .post-custom{
   padding-left: 1.5rem;
